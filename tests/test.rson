@@ -14,5 +14,6 @@
         "key": "value"
     }(HELLO),
     "ref": $HELLO,
-    "ref-string": $STRING
+    "ref-string": $STRING,
+    "zero-e": 0e1,
 }
