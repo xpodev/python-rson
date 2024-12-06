@@ -1,0 +1,33 @@
+[
+    {
+        "members": [
+            {
+                "name": "Alice",
+                "role": $ROLE_DEVELOPER
+            },
+            {
+                "name": "Bob",
+                "role": $ROLE_MANAGER
+            },
+            {
+                "name": "Charlie",
+                "role": $ROLE_DESIGNER
+            },
+            {
+                "name": "David",
+                "role": $ROLE_DEVELOPER
+            }
+        ],
+        "roles": [
+            {
+                "name": "Developer"
+            }(ROLE_DEVELOPER),
+            {
+                "name": "Designer"
+            }(ROLE_DESIGNER),
+            {
+                "name": "Manager"
+            }(ROLE_MANAGER)
+        ]
+    }
+]
