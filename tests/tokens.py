@@ -1,6 +1,6 @@
 import sys
 
-from src.rson._parser import _Private
+from rson._parser import _Private
 
 
 try:
