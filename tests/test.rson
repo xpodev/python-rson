@@ -1,0 +1,18 @@
+{
+    "forward-ref": $HELLO,
+    "true": true,
+    "false": false,
+    "null": null,
+    "string": "string"(STRING),
+    "zero": 0,
+    "one": 1,
+    "ten": 10,
+    "minus-one": -1,
+    "one-point-one": 1.1,
+    "array": [1, 2, 3],
+    "object": {
+        "key": "value"
+    }(HELLO),
+    "ref": $HELLO,
+    "ref-string": $STRING
+}
