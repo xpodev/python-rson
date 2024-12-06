@@ -247,11 +247,10 @@ class _Private:
             value = self._read(1)
 
             if value == "0":
-                if self._peek() != ".":
-                    return value
-                value += self._read(1)
-                while self._peek() in _Private.DIGITS:
+                if self._peek() == ".":
                     value += self._read(1)
+                    while self._peek() in _Private.DIGITS:
+                        value += self._read(1)
             else:
                 while self._peek() in _Private.DIGITS:
                     value += self._read(1)
