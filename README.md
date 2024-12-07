@@ -9,7 +9,7 @@ In addition to that, RSON also allows:
 - [x] Block comments
 - [x] Trailing commas
 
-> These are just some nicities are not the primary goal of the RSON format.
+> These are just some niceties are not the primary goal of the RSON format.
 
 
 ## Usage
@@ -41,6 +41,10 @@ Here is an example of how this would work:
             {
                 "name": "Charlie",
                 "role": $ROLE_DESIGNER
+            },
+            {
+                "name": "David",
+                "role": $ROLE_DEVELOPER
             }
         ],
         "roles": [
